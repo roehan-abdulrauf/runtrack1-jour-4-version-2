@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+margin: 0;
+}
+
+header {
+background-image: url('gradient.png');
+background-size: cover;
+}
+
+.couleur-main{
+    background:hsl(0, 87%, 94%) ;
+}
+
+li{
+    list-style: none;  
+    
+}
+a{
+    text-decoration: none;
+}
+/* .anchor-sous-menu::before{
+    content: '👉';;
+} */
+/* ul sous-menu -> li-> a anchor-sous-menu ->p smallcontainer - span oo */
+
+
+.sous-menu li a p {
+    background: linear-gradient(to right, #5ca0a0 50%, white 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    margin-left:10px;
+    transition:all 0.3s ease;
+    border-radius: 5px;
+    margin: 10px ;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sous-menu li a p:hover {
+    background-position:left bottom;
+}
+
+.sous-menu li a p span.oo::after {
+    position: relative;
+    content: '👉';
+    margin-right: 5px;
+  }
+.sous-menu:hover li a p.smallContainer span.oo::after{
+    content: '📖 ';
+    margin-right: 5px;
+}
+
+#logo{
+    width:250px;
+    height:auto;
+}
+.titles{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #29A198;
+    text-decoration: none;
+    
+}
+.show:hover  ul.sous-menu{
+    max-height: inherit;
+    opacity: 1;
+  }
+  
+  .sous-menu{
+    z-index: 11;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 300ms ease;
+    background:white;
+    max-width: fit-content ;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .navbar{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
+ 
+
+
+
+
+
+
+html
+{
+    /* background-color: rgba(0, 174, 255, 0.815); */
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+
+
+h1
+{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h2
+{
+    font-size: 25px;
+    text-decoration: none;
+    
+}  
+
+h3{
+    color: rgb(68, 0, 255);
+}
+
+
+
+.fusion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 6px  yellow;
+    /* text-align: center; */
+    padding: 10px;
+    color: blue;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around  ;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.mon-texte {
+    width: 600px;
+    padding: 50px;
+}
+
+
+
+/* .box2 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    /* text-align: center; 
+    padding: 10px;
+}
+.box3 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    /* text-align: center; 
+    padding: 10px;
+} */
+
+
+
+#boxfooter
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 123, 0);
+    
+    
+
+}
+
+.boxfooter1
+{
+    max-width: 10%;
+    max-height: 10%;
+    
+}
+
+ #footfoot
+ {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(233, 7, 56);
+ }
+
+main{
+ background-color: rgb(0, 47, 255);
+}
+
+
+a{
+ color: rgb(0, 47, 255);
+ font-style: bold;
+}
+
+.centrer{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+}
+
+.école{
+    color: rgb(0, 225, 255);
+    font-weight:bold;
+}
+
+
+.post-graduate{
+    color: rgb(0, 225, 255);
+    font-weight:bold;
+}
+
+.savoir-plus{
+    color:rgb(0, 174, 255);
+    font-weight:bold;
+}
+
+
+.credit-agricole {
+    color: rgb(0, 225, 255);
+    font-weight:bold;
+}
+
+
+.phrase-corporate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.cercle-jaune{
+    /* width: 200px ; */
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: solid 4px white;
+    font-size: 15px;
+    font-weight: 500;
+    color:blue;
+    text-transform: uppercase;
+}
+
+
+
+
+.space {
+    display: flex;
+    justify-content: space-around  ;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.texte {
+    width: 600px;
+    padding: 50px;
+}
+
+
+
+/* .box2 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    /* text-align: center; 
+    padding: 10px;
+}
+.box3 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    /* text-align: center; 
+    padding: 10px;
+} */
+
+
+
+#boxfooter
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 123, 0);
+    
+    
+
+}
+
+.boxfooter1
+{
+    max-width: 10%;
+    max-height: 10%;
+    
+}
+
+ #footfoot
+ {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(233, 7, 56);
+ }
+
+main{
+ background-color: rgb(0, 47, 255);
+}
+
+
+a{
+ color:rgb(0, 238, 255);
+ font-weight: bold;
+}
+
+
+.credit-agricole {
+    color: rgb(0, 225, 255);
+}
+
+.Blockchain{
+    color: white;
+    font-size: 30px;
+}
+
+.IA{
+    color: white;
+    font-size: 30px;
+}
+
+.cloud{
+    color: white;
+    font-size: 30px;
+}
+
+.UX-Design{
+    color: white;
+    font-size: 30px;
+}
+
+
+.cercle{
+    /* width: 200px ; */
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: solid 4px white;
+    font-size: 15px;
+    font-weight: 500;
+    color:blue;
+    text-transform: uppercase;
+}
+
+
+.centrer-page{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+}

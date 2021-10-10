@@ -1,0 +1,189 @@
+header{
+    background:#FDF6E3 ;
+}
+li{
+    list-style: none;  
+    
+}
+a{color:bisque;
+}
+/* .anchor-sous-menu::before{
+    content: '👉';;
+} */
+/* ul sous-menu -> li-> a anchor-sous-menu ->p smallcontainer - span oo */
+
+
+.sous-menu li a p {
+    background: linear-gradient(to right, #5ca0a0 50%, white 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    margin-left:10px;
+    transition:all 0.3s ease;
+    border-radius: 5px;
+    margin: 10px ;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sous-menu li a p:hover {
+    background-position:left bottom;
+}
+
+.sous-menu li a p span.oo::after {
+    position: relative;
+    content: '👉';
+    margin-right: 5px;
+  }
+.sous-menu:hover li a p.smallContainer span.oo::after{
+    content: '📖 ';
+    margin-right: 5px;
+}
+
+#logo{
+    width:250px;
+    height:auto;
+}
+.titles{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #29A198;
+    text-decoration: none;
+    
+}
+.show:hover  ul.sous-menu{
+    max-height: inherit;
+    opacity: 1;
+  }
+  
+  .sous-menu{
+    z-index: 11;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 300ms ease;
+    background:white;
+    max-width: fit-content ;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .navbar{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
+ 
+
+
+main
+{
+    background-color: rgb(3,97, 152);
+}
+
+
+
+
+
+#m1 
+{
+    display: flex;
+    justify-content: right;
+}
+
+
+.cybertitre
+{
+    color: white;
+    font-size: 300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.gris
+{
+    color: rgb(82, 78, 78);
+}
+
+.b1
+{
+    width: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(82, 78, 78);
+}
+
+.b2
+{
+    min-width: 50%;
+    min-height: 40%;
+    margin-top: 100px;
+}
+
+#m2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.z1
+{
+background-color: honeydew;
+max-width: 20%;
+
+
+}
+.z2
+{
+    background-color: honeydew;
+    max-width: 20%;
+}
+.z3
+{
+    background-color: honeydew;
+    max-width: 20%;
+}
+.neufsept 
+{
+margin-left: 20%;
+}
+
+
+
+
+#boxfooter
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 123, 0);
+    
+    
+
+}
+
+.boxfooter1
+{
+    max-width: 10%;
+    max-height: 10%;
+    
+}
+
+ #footfoot
+ {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(233, 7, 56);
+ }
+
+ span 
+ {
+    background-color: yellow; 
+    border-radius:20% ;
+    padding: 2% 2% 2% 2%;
+ }
+
+ #accueil
+ {
+    display: flex;
+    justify-content: space-around;
+ }

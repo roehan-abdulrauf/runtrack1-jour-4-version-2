@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="style.css" rel="stylesheet"/>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: -25.344, lng: 131.036 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+
+    <title>Contact</title>
+</head>
+<body>
+    <section class="section1">
+		<span class="logo">
+			<a href="https://laplateforme.io/">
+				<img src="https://laplateforme.io/wp-content/uploads/2021/07/logo_laplateforme_bleu3.png" alt="La Plateforme_ Marseille | Centre de Formation" id="logo" data-height-percentage="70" />
+			</a>
+		</span>
+
+			<div>
+				<nav class="navbar">
+					<div class="show">
+						
+							<a class="titles" href="#">🤝Qui somme-nous ?</a>
+								<ul class="sous-menu">
+									<li>
+										<a class="anchor-sous-menu" href="https://laplateforme.io/qui-sommes-nous/">
+											<p class='smallContainer'>
+												<span  class="oo"></span>
+												<span class="pp">Qui sommes-nous ?</span>
+											</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="anchor-sous-menu" href="https://laplateforme.io/lls-parlent-de-nous/">
+											<p class='smallContainer'>
+												<span class="oo"></span>
+												<span>Ils parlent de nous</span>
+											</p>
+											
+										</a>
+									</li>
+								</ul>
+						
+					</div>
+					
+					<div class="show">
+						<a class="titles" href="#">📚Cursus</a>
+						<ul class="sous-menu">
+							<li>
+								<a class="anchor-sous-menu" href="https://laplateforme.io/coding-school/">
+									<p class='smallContainer'>
+										<span class="oo"></span>
+										<span>Web Coding</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a class="anchor-sous-menu" href="https://laplateforme.io/ai-school/">
+									<p class='smallContainer'>
+										<span class="oo"></span>
+										<span>Intelligence Artificielle</span>		
+									</p>
+									
+								</a>
+							</li>
+							<li>
+								<a class="anchor-sous-menu" href="https://laplateforme.io/cyber-security-school/">
+									<p class='smallContainer'>
+										<span class="oo"></span>
+										<span>Cybersécurité</span>
+									</p>
+									
+								</a>
+							</li>
+							<li>
+								<a class="anchor-sous-menu" href="https://laplateforme.io/innovation-lab/">
+									<p class='smallContainer'>
+										<span class="oo"></span>
+										<span>Innovation Lab</span>
+									</p>
+									
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="show">
+						<a class="titles" href="#">🎓Certification</a>
+						<ul class="sous-menu">
+							<li>
+								<a class="anchor-sous-menu" href="https://laplateforme.io/aws-restart/">
+									<p class='smallContainer'>
+										<span class="oo"></span>
+										<span>Certification AWS re/Start</span>
+									</p>
+									
+								</a>
+							</li>
+						</ul>
+					</div>
+				
+					
+						<div class="show">
+							<a class="titles" href="https://laplateforme.io/entreprise/">🏢Entreprise</a>
+							<ul  class="sous-menu">
+								<li>
+									<a class="anchor-sous-menu" href="https://laplateforme.io/entreprise/#recrutez">
+										<p class='smallContainer'>
+											<span class="oo"></span>
+											<span>Recruter nos talents</span>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a class="anchor-sous-menu" href="https://laplateforme.io/entreprise/#seformer">
+										<p class='smallContainer'>
+											<span class="oo"></span>
+											<span>Vous former au  numérique</span>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a class="anchor-sous-menu" href="https://laplateforme.io/entreprise/#accelerez">
+										<p class='smallContainer'>
+											<span class="oo"></span>
+											<span>Diagnostic Digital Flash #gratuit</span>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a class="anchor-sous-menu" href="https://laplateforme.io/entreprise/#accelerez">
+										<p class='smallContainer'>
+											<span class="oo"></span>
+											<span>Accélerer votre innovation</span>
+										</p>
+									</a>
+								</li>
+							
+							</ul>
+
+						</div>
+
+					
+					
+					<li><a class="titles " href="https://laplateforme.io/news/">📰News</a></li>
+					
+					
+					
+					<li><a class="titles" href="https://laplateforme.io/informations/">📬Contact</a></li>
+					
+					<input class="the-input"/>
+				</nav>
+			</div>
+	</section>
+    <h1 class="é">Vous souhaitez des informations ou candidater à La Plateforme_ ?</h1>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Remplissez ce formulaire et nous reviendrons vers vous</h3>
+          <h4>-----------------------------------------------------</h4>
+          <fieldset>
+            <input placeholder="la formation qui  vous  inttéresse" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="souhaitez-vous passer un entretien préalable au test d'entrée" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Prenom" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Nom" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="téléphone" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="adresse" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="code postal" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="ville" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Comment nous avez-vous connu" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Quel es  votre niveau  d'étud" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+
+    <section class="pfpAPI">
+       
+        <div class="é">
+            <h2 >Une autre question ?</h2>
+            Nous sommes aussi joignables :
+
+            – Par email contact@laplateforme.io </br>
+            – Par téléphone au 04.84.89.43.69 du lundi au vendredi de 9h à 17h</br>
+            – Sur les réseaux sociaux</br>
+            <h2> Télécharger notre brochure</h2>
+        </div>
+        <div id="map">
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <section id="boxfooter">
+            
+            
+                <img src="https://i2.wp.com/laplateforme.io/wp-content/uploads/2021/07/logo_monogramme-1.png?w=800&ssl=1" alt="image" height="20%" width="20%">
+    
+            
+            <article class="boxfooter2">
+    
+                <p><strong>La Plateforme</strong>  <br>
+                    <br>
+    
+                    <a href="https://laplateforme.io/">Accueil</a> <br>
+                <br>
+                
+                <a href="https://laplateforme.io/qui-sommes-nous/">Qui sommes-nous ?</a> <br>
+                <br>
+                <a href="https://laplateforme.io/laplateforme_brochure.pdf">Notre brochure</a> <br>
+                <br>
+                <a href="https://laplateforme.io/lls-parlent-de-nous/">Ils parlent de nous</a> <br>
+                <br>
+                <a href="https://laplateforme.io/informations/">Contact</a> <br>
+                <br>
+                <a href="https://students-laplateforme.io/">Annuaire des Plateformeurs</a> <br>
+                <br>
+                <a href="https://laplateforme.io/mentions-legales/">Mentions Légales</a> <br>
+                </p>
+            </article>
+    
+            <article class="boxfooter3">
+                <p><strong> Les Formations</strong> <br>
+                    <br>
+    
+                    <a href="https://laplateforme.io/coding-school/"> Coding School</a> <br>
+                    <br>
+                    <a href="https://laplateforme.io/ai-school/"> Artificial Intelligence School</a> <br>
+                    <br>
+    
+                    <a href="cyber-security-school.html.html">Cyber Security School</a> <br>
+                    <br>
+                    <a href="https://laplateforme.io/executive-education/">Executive Education </a> <br>
+    
+                <a href="https://april.org/" ><img src="https://i0.wp.com/laplateforme.io/wp-content/uploads/2021/09/april.png?w=1080&ssl=1" alt="image2" height="40%" width="40%"> </a>
+                
+                </p> 
+    
+    
+            </article>
+    
+            <aside class="boxfooter4">
+                <p>
+                    <span> En savoir plus </span> <br>
+                    <br>
+                    Rejoignez-nous sur les réseaux sociaux <br>
+                    <br>
+                    <a href="https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/qualiopi"><img src="https://i2.wp.com/laplateforme.io/wp-content/uploads/2021/02/LogoQualiopi-150dpi-AvecMarianne.png?w=317&ssl=1" alt="imagefooter3" height="40%" width="40%"></a>
+    
+    
+                </p>
+            </aside>
+        </section>
+        <section>
+    
+            <aside id="footfoot">
+                <div id="siret">
+                    <p>
+    
+                    Association loi 1901 - SIRET : <br>
+                    <br>
+                    84160956300025
+                    </p>
+                </div>
+    
+                <div id="tel">
+                    <p>
+                        Tel : 04.84.89.43.69 - <br>
+                        <br>
+                        contact@laplateforme.io
+    
+                    </p>
+                </div>
+    
+                <div id="droitsreserves">
+                    <p>
+    
+                        © La Plateforme_. Tous droits réservés.
+    
+    
+                    </p>
+    
+                </div>
+    
+                
+            </aside>
+    
+        </section>
+    </footer>
+ 
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+    async
+  ></script>    
+
+
+</body>
+</html>
